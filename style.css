@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Lumanosimo&display=swap');
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Lumanosimo&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Pacifico&display=swap');
+
+
+
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+
+
+/* navigation stylist */
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 45px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+}
+.brand img{
+    width: 38px;
+    
+}
+
+
+
+
+
+.container{
+    min-height: 115vh;
+     background-color: black;
+    background: url('s1.jpg') no-repeat center center/cover; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .8rem;
+    color: white;
+    margin: 20px auto;
+    display: flex;
+    width: 70%; 
+    padding: 5px;
+} 
+
+
+
+ /* bottom class style  */
+ .bottom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color:white;
+     bottom: 0;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.icons{
+    margin: 15px;
+    
+} 
+
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 40px;
+    right: 40%;
+    position: relative;
+    border-color: aquamarine;
+}
+
+
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    
+    /* position: relative; */
+    align-items: center;
+    justify-content: space-between;
+   
+    width: 140%; 
+    border-radius: 40px; 
+    border: 2px solid aqua;
+    padding: 4px;
+
+}
+ 
+
+.songItem img{
+    width: 37px;
+    margin: 0 8px;
+    border-radius: 20px ;
+}
+.timestamp{
+    margin: 0 20px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}  
+
+ 
+
+/* SONGSITEMS */
+
+.songinfo{
+    position: absolute;
+    top: 35px;
+    left: 13vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity .8s ease-in;
+}
+
+
